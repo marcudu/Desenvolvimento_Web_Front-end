@@ -1,13 +1,22 @@
 body {
-    background-color: #D3D3D3; /* Cor de fundo da página */
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove preenchimento padrão */
+    background-color: #D3D3D3; 
+    margin: 0 auto; 
+    width: 90%;
 }
 
 #wrapper {
-    width: 90%; /* Largura de 90% da tela */
-    margin: 0 auto; /* Centraliza na horizontal */
-    background: white; /* Mantém o fundo branco para o conteúdo */
-    padding: 20px; /* Adiciona espaçamento interno */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Efeito de sombra */
+    background: #ffffff; 
+}
+
+h1 {
+    margin-top: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding:25rem;
+    background-color:#efefef;
+}
+
+ul{
+    text-align: center;
+
 }
