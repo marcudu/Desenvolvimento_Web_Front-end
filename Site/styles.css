@@ -46,10 +46,49 @@ p{
     margin-right: 0%;
 }
 
-#footer{
+footer{
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
 }
 
+.article_column1{
+    width: 31.3%;
+    float: left;
+}
+
+.article_column2{
+    width: 31.3%;
+    float: left;
+    margin-top: 0%;
+    margin-bottom:0%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin: 0;  
+    padding: 0; 
+} 
+
+.article_column3{
+    width: 31.3%;
+    float: left;
+}
+
+.article_column1 p {
+    padding: 10px;
+}
+
+.article_column2 p {
+    padding: 10px;
+}
+
+.article_column3 p {
+    padding: 10px;
+}
+
+.articles_column1 > p:first-child,
+.articles_column2 > p:first-child,
+.articles_column3 > p:first-child {
+    font-weight: bold;  
+    font-style: italic; 
+}
