@@ -13,10 +13,12 @@ body {
 
 h1 {
     margin-top: 1%;
+    margin-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
     padding:25rem;
     background-color:#efefef;
+    text-align: center;
 }
 
 ul{
@@ -27,7 +29,7 @@ p{
     text-align: center;
 }
 
-.contente{
+.content{
     overflow: auto;
 }
 
@@ -36,6 +38,9 @@ p{
     margin-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
+    background-color: #efefef;
+    height: 25rem;
+    margin-bottom: 1rem;
 }
 
 #nav{
@@ -43,6 +48,7 @@ p{
     margin-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
+    background-color: #efefef;
 }
 
 footer{
@@ -50,14 +56,19 @@ footer{
     margin-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
+    background-color: #efefef;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0;
+    padding-right: 0;
 }
 
-.article_column1{
+.column1{
     width: 31.3%;
     float: left;
 }
 
-.article_column2{
+.column2{
     width: 31.3%;
     float: left;
     margin-top: 0%;
@@ -68,28 +79,38 @@ footer{
     padding: 0; 
 } 
 
-.article_column3{
+.column3{
     width: 31.3%;
     float: left;
 }
 
-.article_column1 p {
+.column1 p {
     padding: 10px;
 }
 
-.article_column2 p {
+.column2 p {
     padding: 10px;
 }
 
-.article_column3 p {
+.column3 p {
     padding: 10px;
 }
 
-.articles_column1 > p:first-child,
-.articles_column2 > p:first-child,
-.articles_column3 > p:first-child {
+.column1 > p:first-child,
+.column2 > p:first-child,
+.column3 > p:first-child {
     font-weight: bold;  
     font-style: italic; 
 }
 
+li{
+    display:inline;
+    padding: 0.5rem;
+}
+
+.article{
+    background-color: #efefef;
+    height: 25rem;
+    margin-bottom: 1rem;
+}
 
